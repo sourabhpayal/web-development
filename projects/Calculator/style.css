@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    text-align: center;
+}
+
+h1{
+    font-size: 3rem;
+    margin: 2rem 0;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    width: 21rem;
+    height: 3rem;
+    border-radius: 8px;
+    font-size: 2rem;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+}
+
+li{
+    width: 2rem;
+    height: 2rem;
+    padding: 1rem;
+    font-size: 2rem;
+    border: 2px solid black;
+    border-radius: 8px;
+    border-collapse: separate;
+    margin: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+li:hover{
+    background-color: #e0d5e46d;
+}
