@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Countdown Timer</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <section id="container">
+        <div id="setTime">
+            <h1>Countdown Timer</h1>
+            <label for="title">
+                <p>Title</p>
+                <input type="text" placeholder="Title" id="title">
+            </label>
+            <br>
+            <label for="time">
+                <p>Time & date</p>
+                <input type="datetime-local" name="Countdown" id="time">
+            </label>
+            <br>
+            <button class="btn" id="btnSetTimer">Set Timer</button>
+        </div>
+        <div id="timeLeft">
+            <h1>Title</h1>
+            <div id="boxes">
+                <div class="box">
+                    <p id="days"></p>
+                    <h3>Days</h3>
+                </div>
+                <div class="box">
+                    <p id="hours"></p>
+                    <h3>Hours</h3>
+                </div>
+                <div class="box">
+                    <p id="minutes"></p>
+                    <h3>Minutes</h3>
+                </div>
+                <div class="box">
+                    <p id="seconds"></p>
+                    <h3>Seconds</h3>
+                </div>
+            </div>
+            <button class="btn" id="btnResetTimer">Reset Timer</button>
+        </div>
+        <div id="timeUp">
+            <h4>Countdown Over</h4>
+            <button class="btn" id="btnnewTimer">New Timer</button>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
