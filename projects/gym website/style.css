@@ -1,0 +1,258 @@
+* {
+    margin: 0;
+    padding: 0;
+    --main: #fff;
+    --bg: #000;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 90vw;
+    padding: 1rem 5vw;
+    background-color: transparent;
+    color: var(--main);
+    z-index: 100;
+}
+
+header h2 {
+    font-size: 3rem;
+}
+
+header nav {
+    display: flex;
+    font-size: 1.3rem;
+}
+
+header .logoImages {
+    display: flex;
+}
+
+header .logoImages img {
+    width: 1.8rem;
+}
+
+header h4,
+h5 {
+    margin: 0 1rem;
+}
+
+header #icons {
+    display: none;
+}
+
+@media (max-width: 900px) {
+
+    header nav,
+    header .logoImages {
+        display: none;
+    }
+
+    header #icons {
+        display: block;
+    }
+
+    header #icons img {
+        display: block;
+        color: #fff;
+        background-color: #fff;
+    }
+}
+
+#section1 {
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.64) 0%, rgba(0, 0, 0, 0.52) 47%, rgba(0, 0, 0, 0.64) 100%), url(img/gym\ background.jpg);
+}
+
+#section1 h1 {
+    color: var(--main);
+    position: absolute;
+    left: 4vw;
+    bottom: 6vh;
+    font-size: calc(1rem + 4vw);
+    font-weight: 900;
+}
+
+#section1 button {
+    color: var(--main);
+    background: transparent;
+    position: absolute;
+    right: 4vw;
+    bottom: 6vh;
+    font-size: 1.5rem;
+    padding: 2rem 4rem;
+    border: 2px solid var(--main);
+    border-radius: 3rem;
+}
+
+#section1 button:hover {
+    color: var(--bg);
+    background-color: var(--main);
+
+}
+
+#section2 {
+    background-color: var(--bg);
+    color: var(--main);
+}
+
+#section2text {
+    display: flex;
+    padding: 15vh 4vw;
+}
+
+#section2text h3 {
+    font-size: 3rem;
+}
+
+#section2text p {
+    font-size: 1.3rem;
+}
+
+
+#section2 img {
+    margin-top: 10vh;
+    height: 100vh;
+    position: relative;
+    left: 50vw;
+}
+
+#amenities {
+    text-align: center;
+    margin-top: 20vh;
+    padding-bottom: 30vh;
+}
+
+#amenities h2 {
+    font-size: 3rem;
+    padding: 1rem;
+}
+
+#amenities p {
+    font-size: 1.3rem;
+    padding: 1rem;
+    max-width: 600px;
+    margin: 0 auto 12vh auto;
+}
+
+#amenities ul {
+    display: flex;
+    justify-content: space-between;
+    width: 35vw;
+    min-width: 375px;
+    margin: auto;
+}
+
+#amenities li {
+    list-style: none;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+#section3 {
+    display: flex;
+    justify-content: space-around;
+    padding: 10vh 5vw;
+    color: var(--bg);
+    background-color: var(--main);
+}
+
+#section3 div {
+    margin: 2rem;
+}
+
+#section3 h2 {
+    font-size: 3rem;
+    padding: 2rem 0;
+}
+
+#section3 p {
+    font-size: 1.3rem;
+    width: 30vw;
+    margin-bottom: 2rem;
+}
+
+#section4 {
+    background-color: var(--bg);
+    color: var(--main);
+    text-align: center;
+    padding: 15vh 0;
+
+}
+
+#section4 div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 8vh;
+
+}
+
+#section4 h3 {
+    font-size: 3rem;
+}
+
+#section4 p {
+    font-size: 1.7rem;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+#section4 p span {
+    font-size: 1.5rem;
+    margin: 5vh;
+    font-size: 1.2rem;
+}
+
+#section5 {
+    display: flex;
+    justify-content: space-around;
+    color: var(--bg);
+    background-color: var(--main);
+    padding: 10vh 0;
+}
+
+#section5 div {
+    text-align: center;
+}
+
+#section5 h4 {
+    font-size: 2.5rem;
+    margin: 5vh 0;
+}
+
+#section5 p {
+    font-size: 1.5rem;
+    margin: 5px;
+}
+
+#section6 {
+    padding: 7vh 0;
+    color: var(--main);
+    background-color: var(--bg);
+    display: flex;
+    justify-content: space-around;
+}
+
+#section6 h3 {
+    font-size: 3rem;
+}
+
+#section6 p {
+    font-size: 1.5rem;
+    margin: 6px;
+}
+
+
+footer {
+    color: var(--main);
+    background-color: var(--bg);
+    display: flex;
+    justify-content: center;
+    padding: 5vh 0;
+}
