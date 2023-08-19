@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.carousel {
+    position: relative;
+}
+
+.slideImg {
+    width: 100vw;
+}
+
+#previous {
+    position: absolute;
+    bottom: 40%;
+}
+
+#next {
+    position: absolute;
+    bottom: 40%;
+    right: 0;
+}
+
+#previous,
+#next {
+    font-size: 3rem;
+    color: gray;
+    background-color: transparent;
+    border: none;
+    margin: 0 4%;
+    padding: 0;
+}
+
+#previous:hover,
+#next:hover {
+    color: black;
+    cursor: pointer;
+}
+
+.dotsIndex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dot {
+    background-color: gray;
+    height: 12px;
+    width: 12px;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.dot:hover {
+    cursor: pointer;
+}

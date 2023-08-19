@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+
+<body>
+    <header>
+        <nav>
+            <img alt="logo" src="img/logo.png" alt="logo">
+            <ul>
+                <li>Music Player</li>
+                <li>About</li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>
+            Enjoy The Beats!
+        </h1>
+        <section class="songsContainer" id="songsContainer">
+            <div class="song">
+                <img alt="logo" src="img/logo.png">
+                <audio class="songItem" src="songs/Adnan Sami Tera Chehra.mp3"></audio>
+                Adnan Sami Tera Chehra
+                <span>
+                    <img alt="logo" src="img/playList.png" class="playList">
+                    <img alt="logo" src="img/pauseList.png" class="pauseList hidden">
+                </span>
+            </div>
+
+            <div class="song">
+                <img alt="logo" src="img/logo.png">
+                <audio class="songItem" src="songs/Agar Tum Saath Ho.mp3"></audio>
+                Agar Tum Saath Ho
+                <span>
+                    <img alt="logo" src="img/playList.png" class="playList">
+                    <img alt="logo" src="img/pauseList.png" class="pauseList hidden">
+                </span>
+            </div>
+
+            <div class="song">
+                <img alt="logo" src="img/logo.png">
+                <audio class="songItem" src="songs/Bheegi Bheegi Raaton Mein.mp3"></audio>
+                Bheegi Bheegi Raaton Mein
+                <span>
+                    <img alt="logo" src="img/playList.png" class="playList">
+                    <img alt="logo" src="img/pauseList.png" class="pauseList hidden">
+                </span>
+            </div>
+
+            <div class="song">
+                <img alt="logo" src="img/logo.png">
+                <audio class="songItem" src="songs/Bolo Ta Ra Ra.mp3"></audio>
+                Bolo Ta Ra Ra
+                <span>
+                    <img alt="logo" src="img/playList.png" class="playList">
+                    <img alt="logo" src="img/pauseList.png" class="pauseList hidden">
+                </span>
+            </div>
+
+            <div class="song">
+                <img alt="logo" src="img/logo.png">
+                <audio class="songItem" src="songs/Dil Keh Raha Hai Dil Se.mp3"></audio>
+                Dil Keh Raha Hai Dil Se
+                <span>
+                    <img alt="logo" src="img/playList.png" class="playList">
+                    <img alt="logo" src="img/pauseList.png" class="pauseList hidden">
+                </span>
+            </div>
+
+            <div class="song">
+                <img alt="logo" src="img/logo.png">
+                <audio class="songItem" src="songs/GYPSY (Balam Thanedar).mp3"></audio>
+                GYPSY (Balam Thanedar)
+                <span>
+                    <img alt="logo" src="img/playList.png" class="playList">
+                    <img alt="logo" src="img/pauseList.png" class="pauseList hidden">
+                </span>
+            </div>
+
+            <div class="song">
+                <img alt="logo" src="img/logo.png">
+                <audio class="songItem" src="songs/Hale Dil.mp3"></audio>
+                Hale Dil
+                <span>
+                    <img alt="logo" src="img/playList.png" class="playList">
+                    <img alt="logo" src="img/pauseList.png" class="pauseList hidden">
+                </span>
+            </div>
+
+            <div class="song">
+                <img alt="logo" src="img/logo.png">
+                <audio class="songItem" src="songs/Ho Jayegi Balle Balle.mp3"></audio>
+                Ho Jayegi Balle Balle
+                <span>
+                    <img alt="logo" src="img/playList.png" class="playList">
+                    <img alt="logo" src="img/pauseList.png" class="pauseList hidden">
+                </span>
+            </div>
+
+            <div class="song">
+                <img alt="logo" src="img/logo.png">
+                <audio class="songItem" src="songs/Hoshwalon Ko Khabar Kya.mp3"></audio>
+                Hoshwalon Ko Khabar Kya
+                <span>
+                    <img alt="logo" src="img/playList.png" class="playList">
+                    <img alt="logo" src="img/pauseList.png" class="pauseList hidden">
+                </span>
+            </div>
+
+            <div class="song">
+                <img alt="logo" src="img/logo.png">
+                <audio class="songItem" src="songs/Kabhi To Nazar Milao.mp3"></audio>
+                Kabhi To Nazar Milao
+                <span>
+                    <img alt="logo" src="img/playList.png" class="playList">
+                    <img alt="logo" src="img/pauseList.png" class="pauseList hidden">
+                </span>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <label for="time">
+            <input type="range" name="time" id="progressBar">
+        </label>
+        <div class="control">
+            <img alt="logo" src="img/previous.png" id="previous">
+            <img alt="logo" src="img/play.png" id="masterPlay" class="show">
+            <img alt="logo" src="img/pause.png" id="masterPause" class="hidden">
+            <img alt="logo" src="img/next.png" id="next">
+        </div>
+        <span id="currentSong">Adnan Sami Tera Chehra</span>
+    </footer>
+
+
+
+    <!-- <script src="script.js" ></script> -->
+    <script src="main.js" ></script>
+</body>
+
+</html>

@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    min-height: 60vh;
+}
+
+h1{
+    margin: 2rem;
+}
+
+label {
+    margin: 2rem;
+    display: flex;
+    align-items: center;
+}
+input{
+    width: 50vw;
+    max-width: 400px;
+    height: 2rem;
+    font-size: 1.7rem;
+    border-radius: 0.4rem;
+}
+
+select{
+    padding: 0.6rem;
+}
+
+button{
+    margin: 2rem 15vw;
+    padding: 1rem 1.5rem;
+}

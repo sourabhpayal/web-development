@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background: #7fbac9;
+    color: rgb(191, 219, 230);
+    min-height: 100vh;
+    max-height: 100vh;
+}
+
+header {
+    height: 10vh;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    height: 10vh;
+    padding-left: 4vw;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+nav img {
+    width: 50px;
+    height: 50px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 1.5vw;
+}
+
+main {
+    background-color: black;
+    margin: 5vh 5vw;
+    height: 65vh;
+    background-image: url(img/background.jpg);
+}
+
+main h1 {
+    margin: 8px 10vw;
+}
+
+.songsContainer {
+    width: 600px;
+    height: 55vh;
+    overflow-y: scroll;
+}
+
+.song {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 500px;
+    background-color: white;
+    color: black;
+    margin: 15px 25px;
+    border: 2px solid #7fbac9;
+    border-radius: 15px;
+    padding: 2px 20px;
+}
+
+
+
+
+footer {
+    background-color: black;
+    position: absolute;
+    bottom: 0px;
+    height: 15vh;
+}
+
+#progressBar {
+    width: 90vw;
+    margin: 1vh 5vw;
+}
+
+.control {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.control img {
+    margin: 8px 5px;
+    width: 50px;
+    height: 50px;
+}
+
+footer span {
+    position: absolute;
+    bottom: 7vh;
+    left: 8vw;
+}
+
+.show {
+    display: block;
+}
+
+.hidden {
+    display: none;
+}
+
+
+@media (max-width: 750px){
+    main{
+        margin: 0;
+    }
+    .songsContainer{
+        width: 100vw;
+    }
+    .song{
+       width: 90vw;
+       max-width: 500px;
+    }
+    footer span{
+        max-width: 25vw;
+    }
+}
